@@ -1,0 +1,46 @@
+{
+  "app_name": "CodeAlpha Music Generation with AI",
+  "version": "1.0",
+  "model": {
+    "sequence_length": 100,
+    "lstm_units": 256,
+    "dropout": 0.3,
+    "num_layers": 3,
+    "dense_units": 256,
+    "activation": "softmax"
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 64,
+    "validation_split": 0.2,
+    "loss_function": "categorical_crossentropy",
+    "optimizer": "adam"
+  },
+  "generation": {
+    "note_generation_length": 100,
+    "temperature": 0.5,
+    "output_format": "mid"
+  },
+  "paths": {
+    "midi_folder": "output",
+    "model_save_path": "models/music_model.h5",
+    "generated_output": "output/generated_music.mid"
+  },
+  "ui": {
+    "window_width": 600,
+    "window_height": 700,
+    "theme": "dark",
+    "colors": {
+      "bg_color": "#2C3E50",
+      "fg_color": "#ECF0F1",
+      "header_color": "#34495E",
+      "accent_color": "#3498DB"
+    }
+  },
+  "font": {
+    "header_font": "Arial",
+    "header_size": 24,
+    "default_size": 10,
+    "small_size": 9
+  }
+}
