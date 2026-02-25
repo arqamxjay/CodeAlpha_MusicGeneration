@@ -28,8 +28,20 @@ Generated files are saved in the output folder (e.g., `output/ai_generated_music
 
 ## Screenshots
 
-![Music Generator Interface](docs/screenshot.png)
-*AI Music Generator with training controls and generation options*
+![Music Generator Interface 1](docs/screenshot1.png)
+*AI Music Generator interface*
+
+![Music Generator Interface 2](docs/screenshot2.png)
+*Training and generation controls*
+
+![Music Generator Interface 3](docs/screenshot3.png)
+*Model training progress*
+
+![Music Generator Interface 4](docs/screenshot4.png)
+*MIDI file selection and processing*
+
+![Music Generator Interface 5](docs/screenshot5.png)
+*Generated music output and playback*
 
 ## Technologies Used
 - Python
