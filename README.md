@@ -26,6 +26,10 @@ An AI-powered music generator with a Tkinter GUI. It trains an LSTM model on MID
 ## Output
 Generated files are saved in the output folder (e.g., `output/ai_generated_music.mid`).
 
+## Screenshots
+
+![Music Generator Interface](docs/screenshot.png)
+*AI Music Generator with training controls and generation options*
 
 ## Technologies Used
 - Python
